@@ -31,8 +31,9 @@
                 <h4>Crear Usuario</h2>
                  
             </div>
-            <div class="btn_config" type="button"  data-bs-toggle="modal" data-bs-target="#crearUsuario" >
-                <h4>Otros</h2>
+            <div class="btn_config" type="button"  data-bs-toggle="modal" data-bs-target="#modalListaDesplegable" >
+                <i class='bx bx-list-plus bx-lg'></i>    
+                <h4>Data Select</h2>
                  
             </div>
         </div>        
@@ -75,6 +76,25 @@
                     <div class="modal-footer">
                         <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
                         <button type="button" class="btn btn-primary">Guardar</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal Select -> este modal nos servira para agreagar datos a un select determinado-->
+            <div class="modal fade" id="modalListaDesplegable" tabindex="-1" aria-labelledby="modalListaDesplegable" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Agregar datos a una lista desplegable</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                            
+                    </div>
+                    <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+                        <button type="button" class="btn btn-primary">Agregar</button>
                     </div>
                     </div>
                 </div>
